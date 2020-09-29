@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Bg Toggle</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0;
+            min-height: 100vh;
+            transition: 0.5s ease-in;
+        }
+
+        h1,
+        p,
+        button {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+
+        .bg-dark {
+            background-color: #17202a;
+            color: white;
+            transition: 0.5s ease-in;
+        }
+
+        button {
+            padding: 10px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: black;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.2s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #17202a;
+            transition: 0.2s ease-in;
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Press Toggle to Change Background Color</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quibusdam officiis in sint eum dicta similique
+        corrupti, dignissimos architecto cumque minima facere totam quidem aut temporibus rerum tenetur. Eius, ipsum!.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto ipsum assumenda eaque animi quae
+        recusandae modi, laudantium velit, consequuntur alias dolores iste a pariatur quidem, commodi in harum. Sed!.
+    </p>
+    <div class="button">
+        <button type="button" class="dark">Toggle</button>
+    </div>
+</body>
+<script src="dark.js"></script>
+
+</html>
