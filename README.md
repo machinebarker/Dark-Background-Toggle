@@ -1,6 +1,3 @@
-# Dark-Background-Toggle
-Dark Background Toggle created by Machine Barker
-
 # Bootstrap-Example-Challenge
 Create all Bootstrap Example page on getbootstrap.com
 
