@@ -1,5 +1,5 @@
 # Dark Background Toggle
-Create all dark background toggle
+Create all dark background toggle using vanilla js or js library
 
 ## How to contribute to this project
 Here are 3 quick and painless ways to contribute to this project:
@@ -12,7 +12,7 @@ Here are 3 quick and painless ways to contribute to this project:
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/machinebarker/ATube-Project.git
+git clone https://github.com/machinebarker/Dark-Background-Toggle.git
 ```
 
 * Create a branch
